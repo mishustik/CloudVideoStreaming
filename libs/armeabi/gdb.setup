@@ -1,0 +1,2 @@
+set solib-search-path ./obj/local/armeabi
+directory /home/mishka/android-ndk/platforms/android-14/arch-arm/usr/include jni/SDL/include /home/mishka/android-ndk/sources/cxx-stl/stlport/stlport /home/mishka/android-ndk/sources/cxx-stl//gabi++/include jni/src2 jni/src/../SDL/include jni/src/../ffmpeg jni/src2/../ffmpeg LOCAL_SHARED_LIBRARY := ffmpeg-prebuilt
