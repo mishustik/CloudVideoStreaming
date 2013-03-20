@@ -1,0 +1,2 @@
+set solib-search-path ./obj/local/x86
+directory /home/mishka/android-ndk/platforms/android-14/arch-x86/usr/include jni jni/ffmpeg LOCAL_SHARED_LIBRARY := ffmpeg-prebuilt /home/mishka/android-ndk/sources/cxx-stl/system
