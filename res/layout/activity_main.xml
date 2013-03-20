@@ -1,0 +1,52 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/web_download"
+        android:id="@+id/web_button" />
+    
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/stream_download"
+        android:id="@+id/stream_button" />
+    
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/convert"
+        android:id="@+id/convert_button" />
+    
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/play"
+        android:id="@+id/play_button" />
+    
+     <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/httpclientserver"
+        android:id="@+id/http_button" />
+        
+    <SurfaceView
+        android:id="@+id/surface"
+        android:orientation="horizontal"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center" >
+    </SurfaceView>  
+    
+    <TextView  
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="Hello World, SDLActivity"
+    />
+
+</LinearLayout>

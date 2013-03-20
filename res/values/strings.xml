@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CloudVideoStreaming</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_sdl">SDLActivity</string>
+    <string name="web_download">Download</string>
+    <string name="stream_download">Streaming</string>
+    <string name="play">Play Video</string>
+    <string name="convert">Convert Video</string>
+    <string name="httpclientserver">StartHTTPClServer</string>
+</resources>
